@@ -1,0 +1,2246 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.container .fixed{
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    padding: 10px 19px;
+    position: fixed;
+    top: 150px;
+    right: 15px;
+    color: white;
+    background-color: #ffffff;
+    z-index: 300;
+    border-radius: 9px;
+    box-shadow: -1px 0 7px 2px #00000026
+}
+
+.container .fixed i {
+    font-weight: 900;
+    padding: 18px 0 18px 0;
+    color: #0000005c;
+    font-size: 19px;
+    display: block
+}
+
+/* section 1 */
+
+.container .sec1{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/download01.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: white;
+    position: relative
+}
+
+.container .sec1::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0000008f
+}
+
+.container .sec1 .ground{
+    background-image: url(../images/download1.png);
+    background-size: 60% 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 250%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap
+}
+.container .sec1 .box1{ 
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    height: 70%
+}
+.container .sec1 .box1 .images{
+    width: 12%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap
+}
+.container .sec1 .box1 .con{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center
+}
+.container .sec1 .box1 .text{
+    width: 88%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 4.5vw;
+    color: rgb(251 56 56);
+    font-weight: 600
+}
+.container .sec1  .box1 .images img{width: 100%; height: 32px}
+
+.container .sec1 span{padding-left: 15px; color: rgb(143 148 166)}
+
+.container .sec1 .head{
+    font-size: 11vw;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    top: -40px
+}
+
+.container .sec1 .btn{
+    height: 71%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center
+}
+
+.container .sec1 .btn button{
+    height: fit-content;
+    padding: 20px 59px;
+    border-radius: 34px;
+    border: none;
+    background-color: rgb(254 57 57);
+    color: white;
+    font-size: 20px;
+    font-weight: 600
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 2 */
+
+.container .sec2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    height: 1184px;
+    align-items: center
+}
+
+.container .sec2 .image{width: 50%; height: fit-content}
+
+.container .sec2 .image img{border-radius: 15px; width: 100%}
+
+.container .sec2 .box1{width: 50%; height: fit-content; padding: 25px}
+
+.container .sec2 .box1 .head{
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 11px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 21px
+}
+
+.container .sec2 .box1 .title{
+    font-size: 53px;
+    width: 75%;
+    font-weight: 600;
+    margin-bottom: 30px
+}
+
+.container .sec2 .box1 .text{
+    width: 75%;
+    line-height: 30px;
+    color: #515050;
+    font-size: 17px
+}
+
+.container .sec2 .box1 .text .text1{margin-bottom: 19px}
+
+.container .sec2 .box1 .text .text2{font-weight: 600}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 3 */
+
+.container .sec3{width: 76%; margin: auto; padding-bottom: 200px}
+
+.container .sec3 h2{font-size: 4vw; padding-bottom: 40px}
+
+.container .sec3 .box{display: flex; flex-wrap: wrap; width: 100%}
+
+.container .sec3 .box .card1{width: 50%; padding-top: 40px}
+
+.container .sec3 .box .cards{width: 50%; display: flex; flex-wrap: wrap}
+
+.container .sec3 .box .cards .card{
+    width: calc(50% - 20px);
+    background-color: #fbf8f6;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 40px 0 30px 0
+}
+
+.container .sec3 .box .cards .card .image{
+    width: fit-content;
+    margin: auto;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 15px
+}
+
+.container .sec3 .box .cards .card .details{width: fit-content; margin: auto; text-align: center}
+
+.container .sec3 .box .cards .card .details h2{
+    font-size: 20px;
+    width: 66%;
+    margin: auto;
+    line-height: 29px
+}
+
+.container .sec3 .box .cards .card .details p{
+    background-color: #ff3939;
+    width: fit-content;
+    margin: auto;
+    padding: 5px 16px;
+    border-radius: 15px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+.container .sec3 .box .cards .card .details div{font-size: 14px; font-weight: 600}
+
+.container .sec3 .box .card1 .head{
+    margin: 36px;
+    background-color: red;
+    width: fit-content;
+    padding: 8px 18px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 12px
+}
+.container .sec3 .box .card1 .image{width: 80%; padding-bottom: 20px}
+
+.container .sec3 .box .card1 .image img{width: 100%}
+
+.container .sec3 .box .card1 .details{display: flex; flex-wrap: wrap}
+
+.container .sec3 .box .card1 .details h2{font-size: 40px; font-weight: 600; width: 100%}
+
+.container .sec3 .box .card1 .details .sizes{display: flex; width: 100%}
+
+.container .sec3 .box .card1 .details .sizes .size{
+    margin: 7px;
+    box-shadow: 0 0 1px 0px;
+    padding: 4px 23px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 13.5px;
+    color: #7b7b7b
+}
+
+.container .sec3 .box .card1 .details .text{
+    padding: 14px 0 30px 0;
+    width: 90%;
+    line-height: 33px;
+    color: #000000ad;
+    font-size: 18px
+}
+
+.container .sec3 .box .card1 .details .salary{
+    width: 50%;
+    font-size: 43px;
+    font-weight: 600;
+    color: #7b7b7b;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center
+}
+
+.container .sec3 .box .card1 .details .btn{
+    display: flex;
+    height: 100%;
+    height: 50px;
+    align-items: center
+}
+
+.container .sec3 .box .card1 .details .btn button{
+    padding: 13px 26px;
+    border-radius: 23px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600
+}
+
+.container .sec3 .box .card1 .details .btn button i{
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+    padding: 2px;
+    margin-right: 5px;
+    font-weight: 600
+} 
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 4*/
+
+    .container .sec4{ 
+        background-color: #191a1d;
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px 0
+    }
+    .container .sec4 .box1{ 
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        padding: 5px 0
+    }
+
+    .container .sec4 .box2{flex-direction: row-reverse}
+
+    .container .sec4 .box1 .image{ width: 50%}
+
+    .container .sec4 .box1 .image img{  width: 100%; height: 610px}
+
+    .container .sec4 .box1 .details{ 
+        width: 50%;
+        height: 75%;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        color: white
+    }
+
+    .container .sec4 .box1 .details2{
+        width: 35%;
+        height: 75%;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        color: white
+    }
+    .container .sec4 .box1 .details .head,  .container .sec4 .box1 .details2 .head{ 
+        margin: 0 20% 13px 0;
+        padding: 8px 14px;
+        background-color: red;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        height: fit-content
+    }
+
+    .container .sec4 .box1 .details .text,.container .sec4 .box1 .details2 .text{ 
+        width: 78%;
+        font-size: 4.3vw;
+        font-weight: 600;
+        padding: 10px 0 20px 0
+    }
+
+    .container .sec4 .box1 .details2 .text{width: 100%}
+
+    .container .sec4 .box1 .details .miss{ font-weight: 600; width: 100%; padding: 20px 0}
+
+    .container .sec4 .box1 .details .btn{ padding: 20px 0}
+
+    .container .sec4 .box1 .details .btn button { 
+        padding: 20px 55px;
+        color: #ffffffe0;
+        background-color: black;
+        border: 2px solid white;
+        border-radius: 26px;
+        font-size: 17px;
+        font-weight: 600
+    }
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 5 */
+
+.container .sec5{padding: 170px 6% 30px 6%; display: flex; flex-wrap: wrap}
+
+.container .sec5 .box1{width: 100%; padding-bottom: 85px}
+
+.container .sec5 .box1 h2{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px
+}
+
+.container .sec5 .box1 .cards{display: flex; flex-wrap: wrap}
+
+.container .sec5 .box1 .cards .card{
+    width: calc(25% - 24px);
+    margin: 12px;
+    background-color: #fbf8f6;
+    padding: 50px 0 30px 0;
+    border-radius: 20px
+}
+
+.container .sec5 .box1 .cards .card .image{width: 100%; padding: 0px 19px}
+
+.container .sec5 .box1 .cards .card .image img{width: 100%}
+
+.container .sec5 .box1 .cards .card .name{font-size: 25px; font-weight: 600; padding: 20px 10px 20px 16px}
+
+.container .sec5 .box1 .cards .card .text {
+    line-height: 26px;
+    padding: 0 10px 15px 16px;
+    font-size: 17px;
+    color: #000000c9
+}
+
+.container .sec5 .box1 .cards .card .con{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 16px;
+    align-items: center
+}
+
+.container .sec5 .box1 .cards .card .salary{
+    background-color: red;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600
+}
+
+.container .sec5 .box1 .cards .card .add{ font-size: 14px; font-weight: 600}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 6 */
+
+.container .sec6{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    height: 1018px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.container .sec6 .image{ width: 50%; height: fit-content}
+
+.container .sec6 .image img{ border-radius: 15px; width: 100%}
+
+.container .sec6 .details{ width: 50%; height: fit-content; padding: 25px}
+
+.container .sec6 .details .head{ 
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 11px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 21px
+}
+
+.container .sec6 .details h2{
+    font-size: 53px;
+    width: 75%;
+    font-weight: 600;
+    margin-bottom: 30px
+}
+
+.container .sec6 .details .salary{ font-size: 55px; color: red}
+
+.container .sec6 .details .text{ 
+    width: 75%;
+    line-height: 30px;
+    color: #515050;
+    font-size: 17px
+}
+
+.container .sec6 .details .name{  font-weight: 600; padding-top: 20px; font-size: 19px}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 7 */
+
+.container .sec7{ 
+    padding: 85px 0px 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.container .sec7 .image{width: 24.8%}
+
+.container .sec7 .image img{width: 100%}
+
+/*------------------------------------------------------------------------------------*/
+/* section 8 */
+
+.container .sec8{ 
+    padding: 85px 0px 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 84%;
+    margin: auto
+}
+
+.container .sec8 .box1{width: 30%}
+
+.container .sec8 .box1 .image{ padding-bottom: 20px}
+
+.container .sec8 .box1 .text{ width: 80%; line-height: 30px; color: #000000ba}
+
+.container .sec8 .box1 .icons{padding: 20px 0 0 0}
+
+.container .sec8 .box1 .icons i{padding: 6px; font-size: 20px}
+
+.container .sec8 .box2{width: 30%}
+
+.container .sec8 .box2 h2{ padding-bottom: 23px}
+
+.container .sec8 .box2 .content .contact{ padding-bottom: 20px}
+
+.container .sec8 .box2 .content .contact i{color: #ff00009e; padding-right: 5px; color: rgba(0, 0, 0, 0.671)}
+
+.container .sec8 .box3{width: 30%}
+
+.container .sec8 .box3 h2{width: fit-content; margin: auto}
+
+.container .sec8 .box3 form{margin: auto; width: fit-content; text-align: center}
+
+.container .sec8 .box3 form input{
+    width: 100%;
+    padding: 18px 50px;
+    color: black;
+    border-radius: 34px;
+    border: none;
+    background-color: #f4f4f4;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    color: #00000054;
+    font-size: 14px
+}
+
+.container .sec8 .box3 form button{
+    width: 100%;
+    padding: 18px 50px;
+    color: white;
+    border-radius: 34px;
+    border: none;
+    background-color: #ff3939;
+    font-size: 17px;
+    font-weight: 600
+}
+
+.container .sec8 .box3 p{text-align: center; padding: 20px 0; color: #000000ad}
+
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1200px) {
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    
+    .container .fixed{
+        text-align: center;
+        line-height: 25px;
+        font-size: 25px;
+        padding: 10px 19px;
+        position: fixed;
+        top: 150px;
+        right: 15px;
+        color: white;
+        background-color: #ffffff;
+        z-index: 300;
+        border-radius: 9px;
+        box-shadow: -1px 0 7px 2px #00000026
+    }
+    
+    .container .fixed i {
+        font-weight: 900;
+        padding: 18px 0 18px 0;
+        color: #0000005c;
+        font-size: 19px;
+        display: block
+    }
+    
+    /* section 1 */
+    
+    .container .sec1{
+        width: 100%;
+        height: 900px;
+        background-image: url(/images/download01.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        color: white;
+        position: relative
+    }
+    
+    .container .sec1::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #0000008f
+    }
+    
+    .container .sec1 .ground{
+        background-image: url(../images/download1.png);
+        background-size: 60% 90%;
+        background-repeat: no-repeat;
+        background-position: 50% 250%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap
+    }
+    .container .sec1 .box1{ 
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        height: 70%
+    }
+    .container .sec1 .box1 .images{
+        width: 12%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap
+    }
+    .container .sec1 .box1 .con{
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center
+    }
+    .container .sec1 .box1 .text{
+        width: 88%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        font-size: 4.5vw;
+        color: rgb(251 56 56);
+        font-weight: 600
+    }
+    .container .sec1  .box1 .images img{width: 100%; height: 32px}
+    
+    .container .sec1 span{padding-left: 15px; color: rgb(143 148 166)}
+    
+    .container .sec1 .head{
+        font-size: 11vw;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        font-weight: 800;
+        position: relative;
+        top: -40px
+    }
+    
+    .container .sec1 .btn{
+        height: 71%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    
+    .container .sec1 .btn button{
+        height: fit-content;
+        padding: 20px 59px;
+        border-radius: 34px;
+        border: none;
+        background-color: rgb(254 57 57);
+        color: white;
+        font-size: 20px;
+        font-weight: 600
+    }
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 2 */
+    
+    .container .sec2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        height: 1184px;
+        align-items: center
+    }
+    
+    .container .sec2 .image{width: 50%; height: fit-content}
+    
+    .container .sec2 .image img{border-radius: 15px; width: 100%}
+    
+    .container .sec2 .box1{width: 50%; height: fit-content; padding: 25px}
+    
+    .container .sec2 .box1 .head{
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 11px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 21px
+    }
+    
+    .container .sec2 .box1 .title{
+        font-size: 53px;
+        width: 75%;
+        font-weight: 600;
+        margin-bottom: 30px
+    }
+    
+    .container .sec2 .box1 .text{
+        width: 75%;
+        line-height: 30px;
+        color: #515050;
+        font-size: 17px
+    }
+    
+    .container .sec2 .box1 .text .text1{margin-bottom: 19px}
+    
+    .container .sec2 .box1 .text .text2{font-weight: 600}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 3 */
+    
+    .container .sec3{width: 76%; margin: auto; padding-bottom: 200px}
+    
+    .container .sec3 h2{font-size: 4vw; padding-bottom: 40px}
+    
+    .container .sec3 .box{display: flex; flex-wrap: wrap; width: 100%;flex-direction: column;justify-content: center;}
+    
+    .container .sec3 .box .card1{width: 50%; padding-top: 40px; margin: auto;padding-bottom: 30px;}
+    
+    .container .sec3 .box .cards{width: 100%; display: flex; flex-wrap: wrap}
+    
+    .container .sec3 .box .cards .card{
+        width: calc(33.3% - 20px);
+        background-color: #fbf8f6;
+        margin: 10px;
+        border-radius: 15px;
+        padding: 40px 0 30px 0
+    }
+    
+    .container .sec3 .box .cards .card .image{
+        width: fit-content;
+        margin: auto;
+        width: fit-content;
+        margin: auto;
+        padding-bottom: 15px
+    }
+    
+    .container .sec3 .box .cards .card .details{width: fit-content; margin: auto; text-align: center}
+    
+    .container .sec3 .box .cards .card .details h2{
+        font-size: 16px;
+        width: 66%;
+        margin: auto;
+        line-height: 29px
+    }
+    
+    .container .sec3 .box .cards .card .details p{
+        background-color: #ff3939;
+        width: fit-content;
+        margin: auto;
+        padding: 5px 16px;
+        border-radius: 15px;
+        color: white;
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+    
+    .container .sec3 .box .cards .card .details div{font-size: 14px; font-weight: 600}
+    
+    .container .sec3 .box .card1 .head{
+        margin: 36px;
+        background-color: red;
+        width: fit-content;
+        padding: 8px 18px;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 12px
+    }
+    .container .sec3 .box .card1 .image{width: 80%; padding-bottom: 20px}
+    
+    .container .sec3 .box .card1 .image img{width: 100%}
+    
+    .container .sec3 .box .card1 .details{display: flex; flex-wrap: wrap}
+    
+    .container .sec3 .box .card1 .details h2{font-size: 40px; font-weight: 600; width: 100%}
+    
+    .container .sec3 .box .card1 .details .sizes{display: flex; width: 100%}
+    
+    .container .sec3 .box .card1 .details .sizes .size{
+        margin: 7px;
+        box-shadow: 0 0 1px 0px;
+        padding: 4px 23px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 13.5px;
+        color: #7b7b7b
+    }
+    
+    .container .sec3 .box .card1 .details .text{
+        padding: 14px 0 30px 0;
+        width: 90%;
+        line-height: 33px;
+        color: #000000ad;
+        font-size: 18px
+    }
+    
+    .container .sec3 .box .card1 .details .salary{
+        width: 50%;
+        font-size: 43px;
+        font-weight: 600;
+        color: #7b7b7b;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    
+    .container .sec3 .box .card1 .details .btn{
+        display: flex;
+        height: 100%;
+        height: 50px;
+        align-items: center
+    }
+    
+    .container .sec3 .box .card1 .details .btn button{
+        padding: 13px 26px;
+        border-radius: 23px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: 600
+    }
+    
+    .container .sec3 .box .card1 .details .btn button i{
+        border: 2px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 13px;
+        padding: 2px;
+        margin-right: 5px;
+        font-weight: 600
+    } 
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 4*/
+    
+        .container .sec4{ 
+            background-color: #191a1d;
+            padding: 30px 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 100px 0
+        }
+        .container .sec4 .box1{ 
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            padding: 5px 0
+        }
+    
+        .container .sec4 .box2{flex-direction: row-reverse}
+    
+        .container .sec4 .box1 .image{ width: 50%}
+    
+        .container .sec4 .box1 .image img{  width: 100%; height: 610px}
+    
+        .container .sec4 .box1 .details{ 
+            width: 50%;
+            height: 75%;
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: white
+        }
+    
+        .container .sec4 .box1 .details2{
+            width: 35%;
+            height: 75%;
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: white
+        }
+        .container .sec4 .box1 .details .head,  .container .sec4 .box1 .details2 .head{ 
+            margin: 0 20% 13px 0;
+            padding: 8px 14px;
+            background-color: red;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            height: fit-content
+        }
+    
+        .container .sec4 .box1 .details .text,.container .sec4 .box1 .details2 .text{ 
+            width: 78%;
+            font-size: 4.3vw;
+            font-weight: 600;
+            padding: 10px 0 20px 0
+        }
+    
+        .container .sec4 .box1 .details2 .text{width: 100%}
+    
+        .container .sec4 .box1 .details .miss{ font-weight: 600; width: 100%; padding: 20px 0}
+    
+        .container .sec4 .box1 .details .btn{ padding: 20px 0}
+    
+        .container .sec4 .box1 .details .btn button { 
+            padding: 20px 55px;
+            color: #ffffffe0;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 26px;
+            font-size: 17px;
+            font-weight: 600
+        }
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 5 */
+    
+    .container .sec5{padding: 170px 6% 30px 6%; display: flex; flex-wrap: wrap}
+    
+    .container .sec5 .box1{width: 100%; padding-bottom: 85px}
+    
+    .container .sec5 .box1 h2{
+        width: 100%;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        padding-bottom: 20px
+    }
+    
+    .container .sec5 .box1 .cards{display: flex; flex-wrap: wrap; justify-content: center;}
+    
+    .container .sec5 .box1 .cards .card{
+        width: calc(33.3% - 24px);
+        margin: 12px;
+        background-color: #fbf8f6;
+        padding: 50px 0 30px 0;
+        border-radius: 20px
+    }
+    
+    .container .sec5 .box1 .cards .card .image{width: 100%; padding: 0px 19px}
+    
+    .container .sec5 .box1 .cards .card .image img{width: 100%}
+    
+    .container .sec5 .box1 .cards .card .name{font-size: 25px; font-weight: 600; padding: 20px 10px 20px 16px}
+    
+    .container .sec5 .box1 .cards .card .text {
+        line-height: 26px;
+        padding: 0 10px 15px 16px;
+        font-size: 17px;
+        color: #000000c9
+    }
+    
+    .container .sec5 .box1 .cards .card .con{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 16px;
+        align-items: center
+    }
+    
+    .container .sec5 .box1 .cards .card .salary{
+        background-color: red;
+        padding: 5px 15px;
+        border-radius: 15px;
+        color: white;
+        font-size: 21px;
+        font-weight: 600
+    }
+    
+    .container .sec5 .box1 .cards .card .add{ font-size: 14px; font-weight: 600}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 6 */
+    
+    .container .sec6{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        height: 1018px;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    
+    .container .sec6 .image{ width: 50%; height: fit-content}
+    
+    .container .sec6 .image img{ border-radius: 15px; width: 100%}
+    
+    .container .sec6 .details{ width: 50%; height: fit-content; padding: 25px}
+    
+    .container .sec6 .details .head{ 
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 11px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 21px
+    }
+    
+    .container .sec6 .details h2{
+        font-size: 53px;
+        width: 75%;
+        font-weight: 600;
+        margin-bottom: 30px
+    }
+    
+    .container .sec6 .details .salary{ font-size: 55px; color: red}
+    
+    .container .sec6 .details .text{ 
+        width: 75%;
+        line-height: 30px;
+        color: #515050;
+        font-size: 17px
+    }
+    
+    .container .sec6 .details .name{  font-weight: 600; padding-top: 20px; font-size: 19px}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 7 */
+    
+    .container .sec7{ 
+        padding: 85px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    
+    .container .sec7 .image{width: 33.3%}
+    
+    .container .sec7 .image img{width: 100%}
+    
+    /*------------------------------------------------------------------------------------*/
+    /* section 8 */
+    
+    .container .sec8{ 
+        padding: 85px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 84%;
+        margin: auto
+    }
+    
+    .container .sec8 .box1{width: 30%}
+    
+    .container .sec8 .box1 .image{ padding-bottom: 20px}
+    
+    .container .sec8 .box1 .text{ width: 80%; line-height: 30px; color: #000000ba}
+    
+    .container .sec8 .box1 .icons{padding: 20px 0 0 0}
+    
+    .container .sec8 .box1 .icons i{padding: 6px; font-size: 20px}
+    
+    .container .sec8 .box2{width: 30%}
+    
+    .container .sec8 .box2 h2{ padding-bottom: 23px}
+    
+    .container .sec8 .box2 .content .contact{ padding-bottom: 20px}
+    
+    .container .sec8 .box2 .content .contact i{color: #ff00009e; padding-right: 5px; color: rgba(0, 0, 0, 0.671)}
+    
+    .container .sec8 .box3{width: 30%}
+    
+    .container .sec8 .box3 h2{width: fit-content; margin: auto}
+    
+    .container .sec8 .box3 form{margin: auto; width: fit-content; text-align: center}
+    
+    .container .sec8 .box3 form input{
+        width: 100%;
+        padding: 18px 50px;
+        color: black;
+        border-radius: 34px;
+        border: none;
+        background-color: #f4f4f4;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        color: #00000054;
+        font-size: 14px
+    }
+    
+    .container .sec8 .box3 form button{
+        width: 100%;
+        padding: 18px 50px;
+        color: white;
+        border-radius: 34px;
+        border: none;
+        background-color: #ff3939;
+        font-size: 17px;
+        font-weight: 600
+    }
+    
+    .container .sec8 .box3 p{text-align: center; padding: 20px 0; color: #000000ad}
+    
+}
+
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (max-width:900px) {
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    
+    .container .fixed{
+        text-align: center;
+        line-height: 25px;
+        font-size: 25px;
+        padding: 10px 19px;
+        position: fixed;
+        top: 150px;
+        right: 15px;
+        color: white;
+        background-color: #ffffff;
+        z-index: 300;
+        border-radius: 9px;
+        box-shadow: -1px 0 7px 2px #00000026
+    }
+    
+    .container .fixed i {
+        font-weight: 900;
+        padding: 18px 0 18px 0;
+        color: #0000005c;
+        font-size: 19px;
+        display: block
+    }
+    
+    /* section 1 */
+    
+    .container .sec1{
+        width: 100%;
+        height: 900px;
+        background-image: url(/images/download01.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        color: white;
+        position: relative
+    }
+    
+    .container .sec1::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #0000008f
+    }
+    
+    .container .sec1 .ground{
+        background-image: url(../images/download1.png);
+        background-size: 60% 90%;
+        background-repeat: no-repeat;
+        background-position: 50% 250%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap
+    }
+    .container .sec1 .box1{ 
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        height: 70%
+    }
+    .container .sec1 .box1 .images{
+        width: 12%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap
+    }
+    .container .sec1 .box1 .con{
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center
+    }
+    .container .sec1 .box1 .text{
+        width: 88%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        font-size: 4.5vw;
+        color: rgb(251 56 56);
+        font-weight: 600
+    }
+    .container .sec1  .box1 .images img{width: 100%; height: 32px}
+    
+    .container .sec1 span{padding-left: 15px; color: rgb(143 148 166)}
+    
+    .container .sec1 .head{
+        font-size: 11vw;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        font-weight: 800;
+        position: relative;
+        top: -40px
+    }
+    
+    .container .sec1 .btn{
+        height: 71%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    
+    .container .sec1 .btn button{
+        height: fit-content;
+        padding: 20px 59px;
+        border-radius: 34px;
+        border: none;
+        background-color: rgb(254 57 57);
+        color: white;
+        font-size: 20px;
+        font-weight: 600
+    }
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 2 */
+    
+    .container .sec2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        height: 1184px;
+        align-items: center
+    }
+    
+    .container .sec2 .image{width: 50%; height: fit-content}
+    
+    .container .sec2 .image img{border-radius: 15px; width: 100%}
+    
+    .container .sec2 .box1{width: 50%; height: fit-content; padding: 25px}
+    
+    .container .sec2 .box1 .head{
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 11px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 21px
+    }
+    
+    .container .sec2 .box1 .title{
+        font-size: 53px;
+        width: 75%;
+        font-weight: 600;
+        margin-bottom: 30px
+    }
+    
+    .container .sec2 .box1 .text{
+        width: 75%;
+        line-height: 30px;
+        color: #515050;
+        font-size: 17px
+    }
+    
+    .container .sec2 .box1 .text .text1{margin-bottom: 19px}
+    
+    .container .sec2 .box1 .text .text2{font-weight: 600}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 3 */
+    
+    .container .sec3{width: 76%; margin: auto; padding-bottom: 200px}
+    
+    .container .sec3 h2{font-size: 3.5vw; padding-bottom: 40px}
+    
+    .container .sec3 .box{display: flex; flex-wrap: wrap; width: 100%;flex-direction: column;justify-content: center;}
+    
+    .container .sec3 .box .card1{width: 50%; padding-top: 40px; margin: auto;padding-bottom: 30px;}
+    
+    .container .sec3 .box .cards{width: 100%; display: flex; flex-wrap: wrap}
+    
+    .container .sec3 .box .cards .card{
+        width: calc(50% - 20px);
+        background-color: #fbf8f6;
+        margin: 10px;
+        border-radius: 15px;
+        padding: 40px 0 30px 0
+    }
+    
+    .container .sec3 .box .cards .card .image{
+        width: fit-content;
+        margin: auto;
+        width: fit-content;
+        margin: auto;
+        padding-bottom: 15px
+    }
+    
+    .container .sec3 .box .cards .card .details{width: fit-content; margin: auto; text-align: center}
+    
+    .container .sec3 .box .cards .card .details h2{
+        font-size: 16px;
+        width: 66%;
+        margin: auto;
+        line-height: 29px
+    }
+    
+    .container .sec3 .box .cards .card .details p{
+        background-color: #ff3939;
+        width: fit-content;
+        margin: auto;
+        padding: 5px 16px;
+        border-radius: 15px;
+        color: white;
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+    
+    .container .sec3 .box .cards .card .details div{font-size: 14px; font-weight: 600}
+    
+    .container .sec3 .box .card1 .head{
+        margin: 36px;
+        background-color: red;
+        width: fit-content;
+        padding: 8px 18px;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 12px
+    }
+    .container .sec3 .box .card1 .image{width: 80%; padding-bottom: 20px}
+    
+    .container .sec3 .box .card1 .image img{width: 100%}
+    
+    .container .sec3 .box .card1 .details{display: flex; flex-wrap: wrap}
+    
+    .container .sec3 .box .card1 .details h2{font-size: 40px; font-weight: 600; width: 100%}
+    
+    .container .sec3 .box .card1 .details .sizes{display: flex; width: 100%}
+    
+    .container .sec3 .box .card1 .details .sizes .size{
+        margin: 7px;
+        box-shadow: 0 0 1px 0px;
+        padding: 4px 23px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 13.5px;
+        color: #7b7b7b
+    }
+    
+    .container .sec3 .box .card1 .details .text{
+        padding: 14px 0 30px 0;
+        width: 90%;
+        line-height: 33px;
+        color: #000000ad;
+        font-size: 18px
+    }
+    
+    .container .sec3 .box .card1 .details .salary{
+        width: 30%;
+        font-size: 33px;
+        font-weight: 600;
+        color: #7b7b7b;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        display: inline;
+    }
+    
+    .container .sec3 .box .card1 .details .btn{
+        display: flex;
+        height: 100%;
+        height: 50px;
+        align-items: center
+
+    }
+    
+    .container .sec3 .box .card1 .details .btn button{
+        padding: 13px 26px;
+        border-radius: 23px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: 600
+    }
+    
+    .container .sec3 .box .card1 .details .btn button i{
+        border: 2px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 13px;
+        padding: 2px;
+        margin-right: 5px;
+        font-weight: 600
+    } 
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 4*/
+    
+        .container .sec4{ 
+            background-color: #191a1d;
+            padding: 30px 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 100px 0
+        }
+        .container .sec4 .box1{ 
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            padding: 5px 0
+        }
+    
+        .container .sec4 .box2{flex-direction: row-reverse}
+    
+        .container .sec4 .box1 .image{ width: 80%; margin: auto;}
+    
+        .container .sec4 .box1 .image img{  width: 100%; height: 610px}
+    
+        .container .sec4 .box1 .details{ 
+            width: 80%;
+            height: 75%;
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: white;
+            margin: auto;
+        }
+    
+        .container .sec4 .box1 .details2{
+            width: 80%;
+            height: 75%;
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: white
+        }
+        .container .sec4 .box1 .details .head,  .container .sec4 .box1 .details2 .head{ 
+            margin: 0 20% 13px 0;
+            padding: 8px 14px;
+            background-color: red;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            height: fit-content
+        }
+    
+        .container .sec4 .box1 .details .text,.container .sec4 .box1 .details2 .text{ 
+            width: 78%;
+            font-size: 4.3vw;
+            font-weight: 600;
+            padding: 10px 0 20px 0
+        }
+    
+        .container .sec4 .box1 .details2 .text{width: 100%}
+    
+        .container .sec4 .box1 .details .miss{ font-weight: 600; width: 100%; padding: 20px 0}
+    
+        .container .sec4 .box1 .details .btn{ padding: 20px 0}
+    
+        .container .sec4 .box1 .details .btn button { 
+            padding: 20px 55px;
+            color: #ffffffe0;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 26px;
+            font-size: 17px;
+            font-weight: 600
+        }
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 5 */
+    
+    .container .sec5{padding: 170px 6% 30px 6%; display: flex; flex-wrap: wrap}
+    
+    .container .sec5 .box1{width: 100%; padding-bottom: 85px}
+    
+    .container .sec5 .box1 h2{
+        width: 100%;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        padding-bottom: 20px
+    }
+    
+    .container .sec5 .box1 .cards{display: flex; flex-wrap: wrap; justify-content: center;}
+    
+    .container .sec5 .box1 .cards .card{
+        width: calc(50% - 24px);
+        margin: 12px;
+        background-color: #fbf8f6;
+        padding: 50px 0 30px 0;
+        border-radius: 20px
+    }
+    
+    .container .sec5 .box1 .cards .card .image{width: 100%; padding: 0px 19px}
+    
+    .container .sec5 .box1 .cards .card .image img{width: 100%}
+    
+    .container .sec5 .box1 .cards .card .name{font-size: 25px; font-weight: 600; padding: 20px 10px 20px 16px}
+    
+    .container .sec5 .box1 .cards .card .text {
+        line-height: 26px;
+        padding: 0 10px 15px 16px;
+        font-size: 17px;
+        color: #000000c9
+    }
+    
+    .container .sec5 .box1 .cards .card .con{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 16px;
+        align-items: center
+    }
+    
+    .container .sec5 .box1 .cards .card .salary{
+        background-color: red;
+        padding: 5px 15px;
+        border-radius: 15px;
+        color: white;
+        font-size: 21px;
+        font-weight: 600
+    }
+    
+    .container .sec5 .box1 .cards .card .add{ font-size: 14px; font-weight: 600}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 6 */
+    
+    .container .sec6{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        height: 1018px;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    
+    .container .sec6 .image{ width: 50%; height: fit-content}
+    
+    .container .sec6 .image img{ border-radius: 15px; width: 100%}
+    
+    .container .sec6 .details{ width: 50%; height: fit-content; padding: 25px}
+    
+    .container .sec6 .details .head{ 
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 11px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 21px
+    }
+    
+    .container .sec6 .details h2{
+        font-size: 53px;
+        width: 75%;
+        font-weight: 600;
+        margin-bottom: 30px
+    }
+    
+    .container .sec6 .details .salary{ font-size: 55px; color: red}
+    
+    .container .sec6 .details .text{ 
+        width: 75%;
+        line-height: 30px;
+        color: #515050;
+        font-size: 17px
+    }
+    
+    .container .sec6 .details .name{  font-weight: 600; padding-top: 20px; font-size: 19px}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 7 */
+    
+    .container .sec7{ 
+        padding: 85px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    
+    .container .sec7 .image{width: 50%}
+    
+    .container .sec7 .image img{width: 100%}
+    
+    /*------------------------------------------------------------------------------------*/
+    /* section 8 */
+    
+    .container .sec8{ 
+        padding: 85px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 84%;
+        margin: auto
+    }
+    
+    .container .sec8 .box1{width: 30%}
+    
+    .container .sec8 .box1 .image{ padding-bottom: 20px}
+    
+    .container .sec8 .box1 .text{ width: 80%; line-height: 30px; color: #000000ba}
+    
+    .container .sec8 .box1 .icons{padding: 20px 0 0 0}
+    
+    .container .sec8 .box1 .icons i{padding: 6px; font-size: 20px}
+    
+    .container .sec8 .box2{width: 30%}
+    
+    .container .sec8 .box2 h2{ padding-bottom: 23px}
+    
+    .container .sec8 .box2 .content .contact{ padding-bottom: 20px}
+    
+    .container .sec8 .box2 .content .contact i{color: #ff00009e; padding-right: 5px; color: rgba(0, 0, 0, 0.671)}
+    
+    .container .sec8 .box3{width: 30%}
+    
+    .container .sec8 .box3 h2{width: fit-content; margin: auto}
+    
+    .container .sec8 .box3 form{margin: auto; width: fit-content; text-align: center}
+    
+    .container .sec8 .box3 form input{
+        width: 100%;
+        padding: 18px 50px;
+        color: black;
+        border-radius: 34px;
+        border: none;
+        background-color: #f4f4f4;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        color: #00000054;
+        font-size: 14px
+    }
+    
+    .container .sec8 .box3 form button{
+        width: 100%;
+        padding: 18px 50px;
+        color: white;
+        border-radius: 34px;
+        border: none;
+        background-color: #ff3939;
+        font-size: 17px;
+        font-weight: 600
+    }
+    
+    .container .sec8 .box3 p{text-align: center; padding: 20px 0; color: #000000ad}
+        
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (max-width:500px) {
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    
+    .container .fixed{
+        text-align: center;
+        line-height: 25px;
+        font-size: 25px;
+        padding: 10px 19px;
+        position: fixed;
+        top: 150px;
+        right: 15px;
+        color: white;
+        background-color: #ffffff;
+        z-index: 300;
+        border-radius: 9px;
+        box-shadow: -1px 0 7px 2px #00000026
+    }
+    
+    .container .fixed i {
+        font-weight: 900;
+        padding: 18px 0 18px 0;
+        color: #0000005c;
+        font-size: 19px;
+        display: block
+    }
+    
+    /* section 1 */
+    
+    .container .sec1{
+        width: 100%;
+        height: 900px;
+        background-image: url(/images/download01.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        color: white;
+        position: relative
+    }
+    
+    .container .sec1::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #0000008f
+    }
+    
+    .container .sec1 .ground{
+        background-image: url(../images/download1.png);
+        background-size: 60% 90%;
+        background-repeat: no-repeat;
+        background-position: 50% 250%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap
+    }
+    .container .sec1 .box1{ 
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        height: 70%
+    }
+    .container .sec1 .box1 .images{
+        width: 12%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap
+    }
+    .container .sec1 .box1 .con{
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center
+    }
+    .container .sec1 .box1 .text{
+        width: 88%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        font-size: 4.5vw;
+        color: rgb(251 56 56);
+        font-weight: 600
+    }
+    .container .sec1  .box1 .images img{width: 100%; height: 32px}
+    
+    .container .sec1 span{padding-left: 15px; color: rgb(143 148 166)}
+    
+    .container .sec1 .head{
+        font-size: 11vw;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        font-weight: 800;
+        position: relative;
+        top: -40px
+    }
+    
+    .container .sec1 .btn{
+        height: 71%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    
+    .container .sec1 .btn button{
+        height: fit-content;
+        padding: 20px 59px;
+        border-radius: 34px;
+        border: none;
+        background-color: rgb(254 57 57);
+        color: white;
+        font-size: 20px;
+        font-weight: 600
+    }
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 2 */
+    
+    .container .sec2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        height: 1184px;
+        align-items: center
+    }
+    
+    .container .sec2 .image{width: 50%; height: fit-content}
+    
+    .container .sec2 .image img{border-radius: 15px; width: 100%}
+    
+    .container .sec2 .box1{width: 50%; height: fit-content; padding: 25px}
+    
+    .container .sec2 .box1 .head{
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 11px;
+        font-size: 11px;
+        font-weight: 600;
+        margin-bottom: 21px
+    }
+    
+    .container .sec2 .box1 .title{
+        font-size: 53px;
+        width: 75%;
+        font-weight: 600;
+        margin-bottom: 30px
+    }
+    
+    .container .sec2 .box1 .text{
+        width: 75%;
+        line-height: 30px;
+        color: #515050;
+        font-size: 17px
+    }
+    
+    .container .sec2 .box1 .text .text1{margin-bottom: 19px}
+    
+    .container .sec2 .box1 .text .text2{font-weight: 600}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 3 */
+    
+    .container .sec3{width: 76%; margin: auto; padding-bottom: 200px}
+    
+    .container .sec3 h2{font-size: 3.5vw; padding-bottom: 40px}
+    
+    .container .sec3 .box{display: flex; flex-wrap: wrap; width: 100%;flex-direction: column;justify-content: center;}
+    
+    .container .sec3 .box .card1{width: 50%; padding-top: 40px; margin: auto;padding-bottom: 30px;}
+    
+    .container .sec3 .box .cards{width: 100%; display: flex; flex-wrap: wrap}
+    
+    .container .sec3 .box .cards .card{
+        width: calc(50% - 20px);
+        background-color: #fbf8f6;
+        margin: 10px;
+        border-radius: 15px;
+        padding: 40px 0 30px 0
+    }
+    
+    .container .sec3 .box .cards .card .image{
+        width: fit-content;
+        margin: auto;
+        width: fit-content;
+        margin: auto;
+        padding-bottom: 15px
+    }
+    
+    .container .sec3 .box .cards .card .details{width: fit-content; margin: auto; text-align: center}
+    
+    .container .sec3 .box .cards .card .details h2{
+        font-size: 16px;
+        width: 66%;
+        margin: auto;
+        line-height: 29px
+    }
+    
+    .container .sec3 .box .cards .card .details p{
+        background-color: #ff3939;
+        width: fit-content;
+        margin: auto;
+        padding: 5px 16px;
+        border-radius: 15px;
+        color: white;
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+    
+    .container .sec3 .box .cards .card .details div{font-size: 14px; font-weight: 600}
+    
+    .container .sec3 .box .card1 .head{
+        margin: 36px;
+        background-color: red;
+        width: fit-content;
+        padding: 8px 18px;
+        color: white;
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 12px
+    }
+    .container .sec3 .box .card1 .image{width: 80%; padding-bottom: 20px}
+    
+    .container .sec3 .box .card1 .image img{width: 100%}
+    
+    .container .sec3 .box .card1 .details{display: flex; flex-wrap: wrap}
+    
+    .container .sec3 .box .card1 .details h2{font-size: 40px; font-weight: 600; width: 100%}
+    
+    .container .sec3 .box .card1 .details .sizes{display: flex; width: 100%}
+    
+    .container .sec3 .box .card1 .details .sizes .size{
+        margin: 7px;
+        box-shadow: 0 0 1px 0px;
+        padding: 4px 23px;
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 13.5px;
+        color: #7b7b7b
+    }
+    
+    .container .sec3 .box .card1 .details .text{
+        padding: 14px 0 30px 0;
+        width: 90%;
+        line-height: 33px;
+        color: #000000ad;
+        font-size: 18px
+    }
+    
+    .container .sec3 .box .card1 .details .salary{
+        width: 30%;
+        font-size: 33px;
+        font-weight: 600;
+        color: #7b7b7b;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        display: inline;
+    }
+    
+    .container .sec3 .box .card1 .details .btn{
+        display: flex;
+        height: 100%;
+        height: 50px;
+        align-items: center
+
+    }
+    
+    .container .sec3 .box .card1 .details .btn button{
+        padding: 13px 26px;
+        border-radius: 23px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: 600
+    }
+    
+    .container .sec3 .box .card1 .details .btn button i{
+        border: 2px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 13px;
+        padding: 2px;
+        margin-right: 5px;
+        font-weight: 600
+    } 
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 4*/
+    
+        .container .sec4{ 
+            background-color: #191a1d;
+            padding: 30px 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 100px 0
+        }
+        .container .sec4 .box1{ 
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            padding: 5px 0
+        }
+    
+        .container .sec4 .box2{flex-direction: row-reverse}
+    
+        .container .sec4 .box1 .image{ width: 80%; margin: auto;}
+    
+        .container .sec4 .box1 .image img{  width: 100%; height: 610px}
+    
+        .container .sec4 .box1 .details{ 
+            width: 80%;
+            height: 75%;
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: white;
+            margin: auto;
+        }
+    
+        .container .sec4 .box1 .details2{
+            width: 80%;
+            height: 75%;
+            display: flex;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            color: white
+        }
+        .container .sec4 .box1 .details .head,  .container .sec4 .box1 .details2 .head{ 
+            margin: 0 20% 13px 0;
+            padding: 8px 14px;
+            background-color: red;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            height: fit-content
+        }
+    
+        .container .sec4 .box1 .details .text,.container .sec4 .box1 .details2 .text{ 
+            width: 78%;
+            font-size: 4.3vw;
+            font-weight: 600;
+            padding: 10px 0 20px 0
+        }
+    
+        .container .sec4 .box1 .details2 .text{width: 100%}
+    
+        .container .sec4 .box1 .details .miss{ font-weight: 600; width: 100%; padding: 20px 0}
+    
+        .container .sec4 .box1 .details .btn{ padding: 20px 0}
+    
+        .container .sec4 .box1 .details .btn button { 
+            padding: 20px 55px;
+            color: #ffffffe0;
+            background-color: black;
+            border: 2px solid white;
+            border-radius: 26px;
+            font-size: 17px;
+            font-weight: 600
+        }
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 5 */
+    
+    .container .sec5{padding: 170px 6% 30px 6%; display: flex; flex-wrap: wrap}
+    
+    .container .sec5 .box1{width: 100%; padding-bottom: 85px}
+    
+    .container .sec5 .box1 h2{
+        width: 100%;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        padding-bottom: 20px
+    }
+    
+    .container .sec5 .box1 .cards{display: flex; flex-wrap: wrap; justify-content: center;}
+    
+    .container .sec5 .box1 .cards .card{
+        width: calc(50% - 24px);
+        margin: 12px;
+        background-color: #fbf8f6;
+        padding: 50px 0 30px 0;
+        border-radius: 20px
+    }
+    
+    .container .sec5 .box1 .cards .card .image{width: 100%; padding: 0px 19px}
+    
+    .container .sec5 .box1 .cards .card .image img{width: 100%}
+    
+    .container .sec5 .box1 .cards .card .name{font-size: 25px; font-weight: 600; padding: 20px 10px 20px 16px}
+    
+    .container .sec5 .box1 .cards .card .text {
+        line-height: 26px;
+        padding: 0 10px 15px 16px;
+        font-size: 17px;
+        color: #000000c9
+    }
+    
+    .container .sec5 .box1 .cards .card .con{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 16px;
+        align-items: center
+    }
+    
+    .container .sec5 .box1 .cards .card .salary{
+        background-color: red;
+        padding: 5px 15px;
+        border-radius: 15px;
+        color: white;
+        font-size: 21px;
+        font-weight: 600
+    }
+    
+    .container .sec5 .box1 .cards .card .add{ font-size: 14px; font-weight: 600}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 6 */
+    
+    .container .sec6{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        height: 1018px;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    
+    .container .sec6 .image{ width: 50%; height: fit-content}
+    
+    .container .sec6 .image img{ border-radius: 15px; width: 100%}
+    
+    .container .sec6 .details{ width: 50%; height: fit-content; padding: 25px}
+    
+    .container .sec6 .details .head{ 
+        width: fit-content;
+        background-color: black;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 11px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 21px
+    }
+    
+    .container .sec6 .details h2{
+        font-size: 53px;
+        width: 75%;
+        font-weight: 600;
+        margin-bottom: 30px
+    }
+    
+    .container .sec6 .details .salary{ font-size: 55px; color: red}
+    
+    .container .sec6 .details .text{ 
+        width: 75%;
+        line-height: 30px;
+        color: #515050;
+        font-size: 17px
+    }
+    
+    .container .sec6 .details .name{  font-weight: 600; padding-top: 20px; font-size: 19px}
+    
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 7 */
+    
+    .container .sec7{ 
+        padding: 85px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    
+    .container .sec7 .image{width: 50%}
+    
+    .container .sec7 .image img{width: 100%}
+    
+    /*------------------------------------------------------------------------------------*/
+    /* section 8 */
+    
+    .container .sec8{ 
+        padding: 85px 0px 100px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 84%;
+        margin: auto
+    }
+    
+    .container .sec8 .box1{width: 30%}
+    
+    .container .sec8 .box1 .image{ padding-bottom: 20px}
+    
+    .container .sec8 .box1 .text{ width: 80%; line-height: 30px; color: #000000ba}
+    
+    .container .sec8 .box1 .icons{padding: 20px 0 0 0}
+    
+    .container .sec8 .box1 .icons i{padding: 6px; font-size: 20px}
+    
+    .container .sec8 .box2{width: 30%}
+    
+    .container .sec8 .box2 h2{ padding-bottom: 23px}
+    
+    .container .sec8 .box2 .content .contact{ padding-bottom: 20px}
+    
+    .container .sec8 .box2 .content .contact i{color: #ff00009e; padding-right: 5px; color: rgba(0, 0, 0, 0.671)}
+    
+    .container .sec8 .box3{width: 30%}
+    
+    .container .sec8 .box3 h2{width: fit-content; margin: auto}
+    
+    .container .sec8 .box3 form{margin: auto; width: fit-content; text-align: center}
+    
+    .container .sec8 .box3 form input{
+        width: 100%;
+        padding: 18px 50px;
+        color: black;
+        border-radius: 34px;
+        border: none;
+        background-color: #f4f4f4;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        color: #00000054;
+        font-size: 14px
+    }
+    
+    .container .sec8 .box3 form button{
+        width: 100%;
+        padding: 18px 50px;
+        color: white;
+        border-radius: 34px;
+        border: none;
+        background-color: #ff3939;
+        font-size: 17px;
+        font-weight: 600
+    }
+    
+    .container .sec8 .box3 p{text-align: center; padding: 20px 0; color: #000000ad}
+
+}
